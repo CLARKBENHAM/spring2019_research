@@ -1,0 +1,35 @@
+ssh %cs3330%
+ssh $AUTO17// where AUTO17=cb5ye@automata17.cs.virginia.edu //from linux terminal; only have docker support on 17
+
+
+ //Netbadge  password
+//log out with: ctrl-d
+
+//to Send files to:
+scp localFile.cu cb5ye@automata4.cs.virginia.edu:~/remote/path/
+
+Goal: Burt Prunning for specific task
+Data set of labeled speech for limited speech processing
+TVM on this task
+
+//Dec-21
+Installing LLVM
+usr/bin/python is version 2.7?
+
+
+//Dec-19
+cd docker_install/tvm/docker
+./bash.sh tvmai/demo-cpu // starts docker container
+//installing from source within this container
+sudo apt install nvidia-cuda-toolkit // to get CUDA
+in /workspace making dir couldn't change settings to allow cuda, didn't build w/ LLVM
+
+//issue with pyton install method1, not sure which path to put on. Using method2; ran in /workspace
+
+c++ tests install from GTests didn't work as had issues with make install not being able to set permissions. Removed googletest
+Set chmod 777 -R to usr/local/include. Bad?
+
+
+Nov
+//trying to download TVM on automata17; run into issues since apt-get is broken on that server.
+//Can't get docker commands to run so can't do stuff with images to get it working on image. Don't have permissions to run yum commands so can't get NVIDIA GPU setup within docker containers.

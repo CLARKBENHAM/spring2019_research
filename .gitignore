@@ -1,0 +1,15 @@
+*~
+*.zip
+\#*#
+*.gz
+*.tar
+*.pkl
+
+GloVe-1.2/*
+glove_word_embeddings/*
+tvm/*
+Udacity_GPU/Intro to Parallel Programming Subtitles
+
+LLVM-9.0.0-win64.exe
+
+

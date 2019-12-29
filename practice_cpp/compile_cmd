@@ -1,0 +1,4 @@
+#Login #not needed as setup ssh-keygen, then copied my .ssh/id_pub into ~/ssh/authorized_keys // plink cb5ye@portal.cs.virginia.edu -pw "%CS_PASSWORD%" didn't work as needed to return each time.
+
+#set server name to CS3330_site, login with just 'ssh %CS3330%'
+ssh %CS3330% -t "gcc helloworld.c; ./a.out"
